@@ -1,0 +1,16 @@
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache
+Package Control.ca-certs
+Package Control.merged-ca-bundle
+Backup/
+Cache/
+Index/
+Local/
+Packages/User/Package Control.user-ca-bundle
+Packages/Anaconda/
+Packages/bz2/
+Packages/ssl-linux/
+Installed Packages/
