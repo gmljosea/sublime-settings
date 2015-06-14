@@ -1,0 +1,48 @@
+[global_config]
+  enabled_plugins = ,
+  title_inactive_fg_color = "#131411"
+  suppress_multiple_term_dialog = True
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#131411"
+  title_inactive_bg_color = "#131411"
+[keybindings]
+  split_horiz = <Alt>v
+  split_vert = <Alt>h
+[profiles]
+  [[default]]
+    use_system_font = False
+    audible_bell = True
+    cursor_shape = underline
+    background_image = None
+    cursor_color = "#ffffff"
+    foreground_color = "#f8f8f2"
+    icon_bell = False
+    font = Consolas 11
+    background_color = "#131411"
+    scrollback_infinite = True
+  [[dxvszdgzdx]]
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child0]]]
+      position = 0:0
+      type = Window
+      order = 0
+      parent = ""
+      size = 1916, 937
+    [[[child1]]]
+      position = 958
+      type = HPaned
+      order = 0
+      parent = child0
+    [[[terminal3]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child1
+    [[[terminal2]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child1
+[plugins]
