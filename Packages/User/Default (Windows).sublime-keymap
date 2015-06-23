@@ -1,0 +1,23 @@
+[
+    { "keys": ["alt+b"], "command": "extended_switcher", "args": {"list_mode": "window"} },
+    { "keys": ["alt+z"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+    { "keys": ["alt+up"], "command": "travel_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["alt+right"], "command": "travel_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["alt+down"], "command": "travel_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["alt+left"], "command": "travel_to_pane", "args": {"direction": "left"} },
+	
+	{ "keys": ["alt+m", "up"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["alt+m", "right"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["alt+m", "down"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["alt+m", "left"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+	
+	{ "keys": ["alt+h"], "command": "create_pane", "args": {"direction": "right"} },
+	{ "keys": ["alt+v"], "command": "create_pane", "args": {"direction": "down"} },
+	
+	{ "keys": ["alt+k", "up"], "command": "destroy_pane", "args": {"direction": "up"} },
+	{ "keys": ["alt+k", "right"], "command": "destroy_pane", "args": {"direction": "right"} },
+	{ "keys": ["alt+k", "down"], "command": "destroy_pane", "args": {"direction": "down"} },
+	{ "keys": ["alt+k", "left"], "command": "destroy_pane", "args": {"direction": "left"} },
+
+]
